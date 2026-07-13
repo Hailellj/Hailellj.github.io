@@ -28,6 +28,12 @@ npm run build
 npm run lint
 ```
 
+After a content update, publish the current static build with:
+
+```bash
+npm run deploy:github
+```
+
 The hyperlink and transcript data in `app/resume-data.json` can be regenerated
 from a PPTX with `scripts/extract_pptx_links.py`. The three run-level social
 links on slide 6 use hand-tuned hit areas after extraction.
